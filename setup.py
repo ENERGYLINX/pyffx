@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 import sys
 
-with open('README.rst') as f:
+with open('README.rst', encoding='utf-8') as f:
     description = f.read()
 
 setup(
